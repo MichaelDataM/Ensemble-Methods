@@ -1,0 +1,5 @@
+eta: learning_rate, step size shrinkage used in update to prevent overfitting. After each boosting step, we can directly get the weights of new features, and eta shrinks the feature weights to make the boosting processs more conervative
+gamma: Minimum loss reduction required to make a further partition on a leaf node of the tree, the larger gamma is, the more conservative the algorithm will be.
+max_depth: maximum depth of a tree. Increasing this value will make the model more complex and more likely to overfit.
+lambda: L2 regularization term on weights. icreasing this value will make model more conservative
+alpha: L1 regularization term on weights
