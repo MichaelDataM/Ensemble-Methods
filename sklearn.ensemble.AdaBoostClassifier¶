@@ -1,0 +1,4 @@
+estimator: the base estimator from which the boosted ensemble is build
+n_estimators : the maximum number of estimators at which boosting is terminated
+learning_rate: weight applied to each classifier at each iteration.A higher learning rate increase the contribution of each classifier. There is a trade-off between learning rate and n_estimators
+random_state: controls the random seed given at each boosting iteration. It is only used when the estimator exposes a random state.
