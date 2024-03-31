@@ -1,0 +1,5 @@
+n_estimators: the number of trees in the forest
+criterion: {'gini','entropy','log_loss'}: the fucntion to measure a split
+max_depth: the max depth of the tree
+min_samples_split: the minimum number of samples required to split an interval node
+min_sample_leaf: the minimum number of samples required to be a leaf node
